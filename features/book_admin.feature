@@ -4,7 +4,7 @@ Característica: Administrar libros
 	Como un administrador
 	Quiero poder administrar libros (crear, modificar , borrar, listar)
 	Escenario: Añadir un nuevo libro
-		Dado que estoy en la pagina de administracion
+		Dado que estoy en la pagina de administracio
 		Cuando hago click en "Nuevo libro"
 		Entonces voy a estar en la pagina de nuevo libro
 		Y Lleno el "Titulo" con "100 años de soledad"

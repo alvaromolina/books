@@ -1,6 +1,31 @@
 
 
-<form action="/" method="POST">
+<form action="/books" method="POST">
 	Titulo:
-	<input name="Titulo" type="text">
+	<input name="book[title]" type="text">
+	<br>
+	Descripcion:
+	<textarea name="book[description]">
+		
+	</textarea>
+	<br>
+	<!--
+	Categoria:
+	<select name="book[categoria]"> 
+		<option value="1">Ficcion</option>
+		<option value="2">Novela</option>
+	</select>
+	<br>
+	Vender por:
+	<br>
+	Web
+	<input type="checkbox" id="opcion" name="book[opcionweb]" >
+	Tienda
+	<input type="checkbox" id="opcion" name="book[opciontienda]" >
+	<br>
+
+	<br>
+	-->
+	<input type="submit"> 
+
 </form>

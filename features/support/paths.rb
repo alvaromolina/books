@@ -15,7 +15,7 @@ module NavigationHelpers
 
     when /^the home\s?page$/
       '/'
-    when /^la pagina de administracion$/
+    when /^la pagina de administracio$/
       '/'
     when /^pagina de nuevo libro$/
       '/books/new'

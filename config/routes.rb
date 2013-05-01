@@ -1,8 +1,10 @@
 Books::Application.routes.draw do
   root :to => 'books#index'
-
+  get '/books/search' => 'books#search'
+  match '/books/like/:id' => 'books#like'
   #get '/books/new' => 'books#new'
   resources :books
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
